@@ -1,0 +1,25 @@
+#!/usr/bin/env node --harmony
+
+var dirToJson = require('./ls-js.js'),
+    program = require('commander'),
+    response;
+
+program
+  .version('0.1.0')
+  .option('-d, --dir <path>', 'specify the directory you want to list ')
+  .option('-j, --json', 'return a pretty json object rather than a string')
+  .parse(process.argv);
+
+  response = dirToJson(program.dir || process.cwd());
+
+  if(!program.json){
+    response = JSON.stringify(response);
+  }
+
+  console.log(require('util').inspect(response, {
+    colors: true,
+    depth: null
+  }));
+
+
+process.exit(0);
