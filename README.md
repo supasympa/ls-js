@@ -65,3 +65,5 @@ As an object:
            fullPath: '/Users/Foo/ls-js/README.md' },
          { name: 'package.json',
            fullPath: '/Users/Foo/ls-js/package.json' } ] }
+
+<!-- -->
