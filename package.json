@@ -1,10 +1,11 @@
 {
-  "name": "files-to-json",
+  "name": "ls-js",
   "version": "0.1.0",
   "description": "create a json file from a directory",
-  "main": "/src/index.js",
+  "main": "/src/ls-js.js",
   "scripts": {
-    "test": "npm run /tests/unitTestRunner.js"
+    "test": "npm run test-node",
+    "test-node": "./node_modules/mocha/bin/mocha ./tests/unitTestRunner.js"
   },
   "author": "",
   "license": "ISC",
