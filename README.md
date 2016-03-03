@@ -51,7 +51,7 @@ As a string:
 
 As an object:
 
-    src/ls-js . -j
+    $ src/ls-js . -j
 
     { path: '/Users/Foo/ls-js',
       files:
