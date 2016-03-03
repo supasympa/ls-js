@@ -5,7 +5,7 @@
 ls-js
 =====
 
-List files in a directory to a JSON object or JSON string.
+List files in a directory to JSON string or as a JS object.
 
 From Node
 ---------
