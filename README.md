@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/supasympa/ls2json.svg?branch=master)](https://travis-ci.org/supasympa/ls2json)
+[![Build Status](https://travis-ci.org/supasympa/ls2json.svg?branch=master)](https://travis-ci.org/supasympa/ls-js)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/1ae9c2038ca7427bbacc03f457b77ec2)](https://www.codacy.com/app/lewis-barclay/ls2json)
 
