@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/supasympa/ls-js.svg?branch=master)](https://travis-ci.org/supasympa/ls-js)
+[![Build Status](https://travis-ci.org/supasympa/ls2json.svg?branch=master)](https://travis-ci.org/supasympa/ls2json)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/1ae9c2038ca7427bbacc03f457b77ec2)](https://www.codacy.com/app/lewis-barclay/ls-js)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/1ae9c2038ca7427bbacc03f457b77ec2)](https://www.codacy.com/app/lewis-barclay/ls2json)
 
 ls2json
 =====
@@ -10,7 +10,7 @@ List files in a directory to JSON string or as a JS object.
 From Node
 ---------
 
-    var listAsJSON = require('ls-js.js');
+    var listAsJSON = require('ls2json');
 
     console.log(listAsJSON(/some/valid/path));
 
@@ -18,18 +18,18 @@ From Node
     /* returns
 
 
-    { path: '/Users/Foo/ls-js',
+    { path: '/Users/Foo/ls2json',
       files:
        [ { name: '.gitignore',
-           fullPath: '/Users/Foo/ls-js/.gitignore' },
+           fullPath: '/Users/Foo/ls2json/.gitignore' },
          { name: '.jshintrc',
-           fullPath: '/Users/Foo/ls-js/.jshintrc' },
+           fullPath: '/Users/Foo/ls2json/.jshintrc' },
          { name: 'LICENSE',
-           fullPath: '/Users/Foo/ls-js/LICENSE' },
+           fullPath: '/Users/Foo/ls2json/LICENSE' },
          { name: 'README.md',
-           fullPath: '/Users/Foo/ls-js/README.md' },
+           fullPath: '/Users/Foo/ls2json/README.md' },
          { name: 'package.json',
-           fullPath: '/Users/Foo/ls-js/package.json' } ] }
+           fullPath: '/Users/Foo/ls2json/package.json' } ] }
 
     */
 
@@ -37,7 +37,7 @@ From Node
 Command line usage
 ------------------
 
-    Usage: ls-js [options]
+    Usage: ls2json [options]
 
     Options:
 
@@ -50,24 +50,24 @@ Command line usage
 
 As a string:
 
-    $ src/ls-js .
-    '{"path":"/Users/Foo/ls-js","files":[{"name":".gitignore","fullPath":"/Users/Foo/ls-js/.gitignore"},{"name":".jshintrc","fullPath":"/Users/Foo/ls-js/.jshintrc"},{"name":"LICENSE","fullPath":"/Users/Foo/ls-js/LICENSE"},{"name":"README.md","fullPath":"/Users/Foo/ls-js/README.md"},{"name":"package.json","fullPath":"/Users/Foo/ls-js/package.json"}]}'
+    $ ls2json .
+    '{"path":"/Users/Foo/ls2json","files":[{"name":".gitignore","fullPath":"/Users/Foo/ls2json/.gitignore"},{"name":".jshintrc","fullPath":"/Users/Foo/ls2json/.jshintrc"},{"name":"LICENSE","fullPath":"/Users/Foo/ls2json/LICENSE"},{"name":"README.md","fullPath":"/Users/Foo/ls2json/README.md"},{"name":"package.json","fullPath":"/Users/Foo/ls2json/package.json"}]}'
 
 As an object:
 
-    $ src/ls-js . -j
+    $ ls2json . -j
 
-    { path: '/Users/Foo/ls-js',
+    { path: '/Users/Foo/ls2json',
       files:
        [ { name: '.gitignore',
-           fullPath: '/Users/Foo/ls-js/.gitignore' },
+           fullPath: '/Users/Foo/ls2json/.gitignore' },
          { name: '.jshintrc',
-           fullPath: '/Users/Foo/ls-js/.jshintrc' },
+           fullPath: '/Users/Foo/ls2json/.jshintrc' },
          { name: 'LICENSE',
-           fullPath: '/Users/Foo/ls-js/LICENSE' },
+           fullPath: '/Users/Foo/ls2json/LICENSE' },
          { name: 'README.md',
-           fullPath: '/Users/Foo/ls-js/README.md' },
+           fullPath: '/Users/Foo/ls2json/README.md' },
          { name: 'package.json',
-           fullPath: '/Users/Foo/ls-js/package.json' } ] }
+           fullPath: '/Users/Foo/ls2json/package.json' } ] }
 
 <!-- -->
