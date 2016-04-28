@@ -1,7 +1,7 @@
 {
   "name": "ls-js",
   "version": "0.1.0",
-  "description": "create a json file from a directory",
+  "description": "create json from a directory",
   "main": "/src/ls-js.js",
   "scripts": {
     "test": "npm run test-node",
