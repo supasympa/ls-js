@@ -5,7 +5,7 @@ console.log(process.cwd());
 
 describe('testing listAsJSON', function(){
     'use strict';
-    var listAsJSON = require(process.cwd() + '/src/ls-js.js');
+    var listAsJSON = require(process.cwd() + '/src/ls2json.js');
 
     describe('executing with no params [listAsJSON()]', function(){
       it('should be okay', function(){

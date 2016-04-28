@@ -2,7 +2,7 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/1ae9c2038ca7427bbacc03f457b77ec2)](https://www.codacy.com/app/lewis-barclay/ls-js)
 
-ls-js
+ls2json
 =====
 
 List files in a directory to JSON string or as a JS object.

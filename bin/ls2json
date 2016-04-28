@@ -1,6 +1,6 @@
 #!/usr/bin/env node --harmony
 
-var dirToJson = require('../ls-js.js'),
+var dirToJson = require('../src/ls2json.js'),
     program = require('commander'),
     response;
 

@@ -1,16 +1,27 @@
 {
-  "name": "ls-js",
-  "version": "0.1.0",
-  "description": "create json from a directory",
-  "main": "/src/ls-js.js",
-  "scripts": {
-    "test": "npm run test-node",
-    "test-node": "./node_modules/mocha/bin/mocha ./tests/unitTestRunner.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "chai": "3.5.0",
-    "mocha": "2.4.5"
-  }
+    "name": "ls2json",
+    "version": "0.1.0",
+    "description": "create json from a directory",
+    "main": "/src/ls2json.js",
+    "scripts": {
+        "test": "npm run test-node",
+        "test-node": "./node_modules/mocha/bin/mocha ./tests/unitTestRunner.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/supasympa/ls2json.git"
+    },
+    "author": "Lewis Barclay",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "3.5.0",
+        "mocha": "2.4.5"
+    },
+    "dependencies": {
+        "commander": "^2.9.0"
+    },
+
+    "bin": {
+        "ls2json": "src/ls2json.js"
+    }
 }
