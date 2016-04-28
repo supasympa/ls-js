@@ -1,6 +1,6 @@
 {
   "name": "ls2json",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "create json from a directory",
   "main": "./src/ls2json.js",
   "scripts": {
