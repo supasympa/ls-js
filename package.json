@@ -2,7 +2,7 @@
   "name": "ls2json",
   "version": "0.1.4",
   "description": "create json from a directory",
-  "main": "/src/ls2json.js",
+  "main": "./src/ls2json.js",
   "scripts": {
     "test": "npm run test-node",
     "test-node": "./node_modules/mocha/bin/mocha ./tests/unitTestRunner.js"
