@@ -15,7 +15,7 @@ From Node
     console.log(listAsJSON(/some/valid/path));
 
 
-    /* returns
+    /* outputs
 
 
     { path: '/Users/Foo/ls2json',
@@ -56,7 +56,7 @@ As a string:
 As an object:
 
     $ ls2json . -j
-
+    > 
     { path: '/Users/Foo/ls2json',
       files:
        [ { name: '.gitignore',
